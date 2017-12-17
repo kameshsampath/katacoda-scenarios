@@ -1,10 +1,10 @@
 {
     "pathwayTitle": "Spring Boot on OpenShift",
     "icon": "fa-openshift",
-    "title": "Spring Boot development on OpenShift",
+    "title": "Build and Deploy Spring Boot Application on OpenShift",
     "description": "In this scenario you will learn how to build and deploy Spring Boot application on OpenShift",
     "difficulty": "beginner",
-    "time": "15 minutes",
+    "time": "5 minutes",
     "details": {
         "steps": [
             {
@@ -14,6 +14,10 @@
             {
                 "title": "Step 2",
                 "text": "02-create-helloboot-controller.md"
+            },
+            {
+                "title": "Step 3",
+                "text": "03-login-to-openshift.md"
             },
             {
                 "title": "Step 3",

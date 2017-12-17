@@ -1,4 +1,3 @@
-
 # Create Project using Spring CLI
 
 **1. Create a simple spring boot project via cli**
