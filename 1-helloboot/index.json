@@ -9,7 +9,15 @@
         "steps": [
             {
                 "title": "Step 1",
-                "text": "01-helloboot.md"
+                "text": "01-create-project-helloboot.md"
+            },
+            {
+                "title": "Step 2",
+                "text": "02-create-helloboot-controller.md"
+            },
+            {
+                "title": "Step 3",
+                "text": "03-deploy-to-openshift.md"
             }
         ],
         "intro": {
