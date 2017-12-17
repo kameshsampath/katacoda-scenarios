@@ -37,3 +37,7 @@ When the console reports that Spring is up and running access the web page by ei
 ![Local Web Browser Tab](../assets/web-browser-tab.png)
 
 You will see a HTTP 404 because as we dont have any resource on root `/` , add `/whereami` to the path on the browser to see the response.
+
+**3. Stop the Running Application**
+
+`CRTL + C` to stop the running application
