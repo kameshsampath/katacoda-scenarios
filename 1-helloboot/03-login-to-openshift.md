@@ -27,7 +27,7 @@ OpenShift ships with a web-based console that will allow users to
 perform various tasks via a browser. To get a feel for how the web console
 works, click on the "OpenShift Console" tab next to the "Local Web Browser" tab.
 
-![OpenShift Console Tab](../assets/openshift-console-tab.png)
+![OpenShift Console Tab](/Users/kameshs/git/kameshsampath/katacoda-scenarios/assets/openshift-console-tab.png)
 
 The first screen you will see is the authentication screen. Enter your username and password and 
 then login:
