@@ -1,0 +1,1 @@
+In this example we will learn how to create project using Spring Boot CLI and deploy a sample application on to OpenShift

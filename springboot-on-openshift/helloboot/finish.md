@@ -1,0 +1,1 @@
+In this scenario you learnt how to deploy Spring Boot Application on to OpenShift
