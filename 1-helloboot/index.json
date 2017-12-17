@@ -9,16 +9,16 @@
         "steps": [
             {
                 "title": "Step 1",
-                "text": "step1.md"
+                "text": "01-helloboot.md"
             }
         ],
         "intro": {
-            "text": "intro.md",
+            "text": "00-intro.md",
             "courseData": "env-init.sh",
             "code": "set-env.sh"
         },
         "finish": {
-            "text": "finish.md"
+            "text": "99-outro.md"
         }
     },
     "files": [],
@@ -37,11 +37,10 @@
         "uilayout": "editor-terminal",
         "uisettings": "java",
         "hideintro": false,
-        "uieditorpath": "/root/projects/springboot-on-openshift/helloboot",
         "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
     },
     "backend": {
-        "imageid": "openshift-middleware",
+        "imageid": "openshift",
         "port": 8443
     }
 }
