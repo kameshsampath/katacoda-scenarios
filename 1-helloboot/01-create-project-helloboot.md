@@ -7,4 +7,4 @@
 
 **2. Change to project directory**
 
-``cd /root/helloboot`` {{execute}}
+``cd /root/helloboot``{{execute}}
