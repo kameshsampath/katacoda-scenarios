@@ -20,8 +20,8 @@
                 "text": "03-login-to-openshift.md"
             },
             {
-                "title": "Step 3",
-                "text": "03-deploy-to-openshift.md"
+                "title": "Step 4",
+                "text": "04-deploy-to-openshift.md"
             }
         ],
         "intro": {
