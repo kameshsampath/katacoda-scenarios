@@ -1,0 +1,84 @@
+{
+    "pathwayTitle": "Spring Boot on OpenShift",
+    "icon": "fa-openshift",
+    "title": "Spring Boot Service Discovery and Invocation on OpenShift",
+    "description": "In this scenario you will learn how do Spring Boot based service discovery and invocation on OpenShift",
+    "difficulty": "intermediate",
+    "time": "15 minutes",
+    "details": {
+        "steps": [
+            {
+                "title": "Step 1",
+                "text": "01-create-project-calculator.md"
+            },
+            {
+                "title": "Step 2",
+                "text": "02-create-calculator-controller.md"
+            },
+            {
+                "title": "Step 3",
+                "text": "03-login-to-openshift.md"
+            },
+            {
+                "title": "Step 4",
+                "text": "04-deploy-calculator-to-openshift.md"
+            },
+            {
+                "title": "Step 5",
+                "text": "05-create-project-hellobood-discovery.md"
+            },
+            {
+                "title": "Step 6",
+                "text": "06-create-application-yaml.md"
+            },
+            {
+                "title": "Step 7",
+                "text": "07-create-calculator-consumer.md"
+            },
+            {
+                "title": "Step 8",
+                "text": "08-create-ribbon-configuration.md"
+            },
+            {
+                "title": "Step 9",
+                "text": "09-update-application-to-use-ribbon.md"
+            },
+            {
+                "title": "Step 10",
+                "text": "10-deploy-helloboot-discovery-to-openshift.md"
+            }
+        ],
+        "intro": {
+            "text": "00-intro.md",
+            "courseData": "env-init.sh",
+            "code": "set-env.sh"
+        },
+        "finish": {
+            "text": "99-outro.md"
+        },
+        "assets": {}
+    },
+    "files": [],
+    "environment": {
+        "showdashboard": true,
+        "dashboards": [
+            {
+                "name": "Local Web Browser",
+                "port": 8080
+            },
+            {
+                "name": "OpenShift Console",
+                "port": 8443
+            }
+        ],
+        "uilayout": "editor-terminal",
+        "uisettings": "java",
+        "hideintro": false,
+        "uieditorpath": "/root/projects/simplecalculator",
+        "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+    },
+    "backend": {
+        "imageid": "openshift-middleware",
+        "port": 8443
+    }
+}

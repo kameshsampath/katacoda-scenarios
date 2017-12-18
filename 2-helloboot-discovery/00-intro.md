@@ -1,0 +1,7 @@
+# Spring Boot Service Discovery and Invocation on OpenShift
+
+In this example we will learn how to create a simple Spring Boot project using [Spring CLI](https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started-installing-spring-boot.html#getting-started-installing-the-cli) and deploy the same on to [Red Hat OpenShift](https://www.openshift.com/) using [fabric8 Maven Plugin](https://maven.fabric8.io).
+
+The example application will explore on how to do Service Discovery and invocation of Spring Boot applications deployed on OpenShift.  For simplicity of the example we will build a Calculator Application which exposes REST API for its add, subtract, multiply and divide. The calculator service will be consumed by another Spring Boot application called **helloboot-discovery** to perform a simple add operation called **/randomadd** which will invoke the Calculator add method with two random numbers.
+
+The main goal of this example is to show how you existing Spring Boot application with Netflix OSS components such as Ribbon could be used as it is within OpenShift, with [Spring Cloud Kubernetes modules](https://github.com/spring-cloud-incubator/spring-cloud-kubernetes) providing the necessary implementation of [Discovery Client](https://github.com/spring-cloud/spring-cloud-commons/blob/master/spring-cloud-commons/src/main/java/org/springframework/cloud/client/discovery/DiscoveryClient.java) for [Kubernetes](http://kubernetes.io/)
