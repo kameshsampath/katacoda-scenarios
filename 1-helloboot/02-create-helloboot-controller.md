@@ -2,9 +2,9 @@
 
 **1. Add a service**
 
-First, we need to create the java class file. For that, you need to click on the following link, which open the empty file in the editor: ``src/main/java/com/example/helloboot/HelloBootController.java``{{open}}
+First, we need to create the Java class file, click on the link below to create an empty file called **HelloBootController.java** in the directory **/root/helloboot/src/main/java/com/example/helloboot** : ``src/main/java/com/example/helloboot/HelloBootController.java``{{open}}
 
-Then, copy the below content into the file (or use the `Copy to editor` button):
+Once the created file is opened in the editor, you can then copy the content below into the file (or use the `Copy to editor` button):
 
 <pre class="file" data-filename="src/main/java/com/example/helloboot/HelloBootController.java" data-target="replace">
 package com.example.helloboot;
