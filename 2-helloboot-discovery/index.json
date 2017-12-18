@@ -2,14 +2,14 @@
     "pathwayTitle": "Spring Boot on OpenShift",
     "icon": "fa-openshift",
     "title": "Spring Boot Service Discovery and Invocation on OpenShift",
-    "description": "In this scenario you will learn how do Spring Boot based service discovery and invocation on OpenShift",
+    "description": "In this scenario you will learn how do Spring Boot based Service discovery and Invocation on OpenShift",
     "difficulty": "intermediate",
     "time": "15 minutes",
     "details": {
         "steps": [
             {
                 "title": "Step 1",
-                "text": "01-create-project-calculator.md"
+                "text": "01-create-project-simplecalculator.md"
             },
             {
                 "title": "Step 2",
@@ -25,7 +25,7 @@
             },
             {
                 "title": "Step 5",
-                "text": "05-create-project-hellobood-discovery.md"
+                "text": "05-create-project-helloboot-discovery.md"
             },
             {
                 "title": "Step 6",
