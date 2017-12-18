@@ -2,11 +2,13 @@
 
 **1. Add fabric8 maven plugin**
 
+``cd $HOME/simplecalculator``{{execute}}
+
 ``./mvnw io.fabric8:fabric8-maven-plugin:3.5.30:setup``{{execute interrupt}}
 
 After the command one that differs slightly is the `pom.xml`. Please open the and examine it a bit closer to see fabric8 maven plugin added to it.
 
-``pom.xml``{{open}}
+``simplecalculator/pom.xml``{{open}}
 
 **2. Deploy the application to OpenShift**
 

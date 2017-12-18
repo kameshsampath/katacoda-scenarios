@@ -109,7 +109,7 @@ When the console reports that Spring is up and running access the web page by ei
 
 You will see a HTTP 404 because as we dont have any resource on root `/` , try doing any one of the following REST calls
 
-* '/add/1/2'
-* '/sub/2/1'
-* '/mul/3/5'
-* 'div/4/2'
+* [Add 1 and 2 ](http://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/add/1/2)
+* [Subtract 3 from 5  ](http://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/sub/5/3)
+* [Multiply 3 and 5 ](http://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/mul/3/5)
+* [Divide 15 by 3 ](http://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/div/3/5)
