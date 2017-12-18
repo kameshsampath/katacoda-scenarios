@@ -2,11 +2,12 @@
 
 **1. Add Calculator Service**
 
-First, we need to create the Java class file, click on the link below to create an empty file called **Calculator.java** in the directory **~/simplecalculator/src/main/java/com/example/simplecalculator** : ``/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java``{{open}}
+First, we need to create the Java class file, click on the link below to create an empty file called **Calculator.java** in the directory **simplecalculator/src/main/java/com/example/simplecalculator** : ``
+simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java``{{open}}
 
 Once the created file is opened in the editor, you can then copy the content below into the file (or use the `Copy to editor` button):
 
-<pre class="file" data-filename="~/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java" data-target="replace">
+<pre class="file" data-filename="simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java" data-target="replace">
 package com.example.simplecalculator;
 
 import lombok.extern.slf4j.Slf4j;
@@ -94,7 +95,7 @@ public class Calculator {
 }
 </pre>
 
-Take a minute and review the `Calculator`. It has four standard simple calculator operations such as add, subtract, multiply and divide.  Each of these methods take JSON body with array of numbers that need to be added, divided, multiplied or substracted.  The response will JSON response with the result of arithmetic computation.
+Take a minute and review the `Calculator`. It has four standard simple calculator operations such as add, subtract, multiply and divide.  Each of these methods take JSON body with array of numbers that need to be added, divided, multiplied or subtracted.  The response will JSON response with the result of arithmetic computation.
 
 **2. Test the service from a web browser locally**
 
