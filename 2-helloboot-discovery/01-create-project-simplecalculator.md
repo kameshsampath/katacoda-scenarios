@@ -20,7 +20,7 @@ For the convenience of execute maven commands we shall navigate to the project d
 
 Click the link below to open the pom.xml:
 
-``~/simplecalculator/pom.xml``{{open}}
+``/simplecalculator/pom.xml``{{open}}
 
 Add the following dependency to the `pom.xml` dependencies:
 
