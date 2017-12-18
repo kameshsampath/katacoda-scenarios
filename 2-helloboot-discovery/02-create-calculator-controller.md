@@ -2,7 +2,7 @@
 
 **1. Add Calculator Service**
 
-First, we need to create the Java class file, click on the link below to create an empty file called **Calculator.java** in the directory **/root/helloboot/src/main/java/com/example/simplecalculator** : ``/root/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java``{{open}}
+First, we need to create the Java class file, click on the link below to create an empty file called **Calculator.java** in the directory **/root/simplecalculator/src/main/java/com/example/simplecalculator** : ``/root/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java``{{open}}
 
 Once the created file is opened in the editor, you can then copy the content below into the file (or use the `Copy to editor` button):
 
