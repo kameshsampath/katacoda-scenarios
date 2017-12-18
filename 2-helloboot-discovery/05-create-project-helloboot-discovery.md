@@ -12,7 +12,7 @@ Click the command below to have project created using [Spring CLI](https://docs.
 
 Click the link below to view the generated pom.xml:
 
-``pom.xml``{{open}}
+``helloboot-discovery/pom.xml``{{open}}
 
 **2. Change to project directory**
 
@@ -24,7 +24,7 @@ For the convenience of execute maven commands we shall navigate to the project d
 
 Click the link below to open the pom.xml:
 
-``pom.xml``{{open}}
+``helloboot-discovery/pom.xml``{{open}}
 
 Add the following dependency to the `pom.xml` dependencies:
 

@@ -22,5 +22,9 @@ After the maven build as finished, it will typically take less than 20 sec for t
 
 ``oc rollout status dc/simplecalculator``{{execute}}
 
-Then either go to the openshift web console and click on the route or click [Do Addition of 1 and 2](http://helloboot-dev.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/add/1/2)
+To test the deployed application, try doing any one of the following REST calls
 
+* [Add 1 and 2 ](http://simplecalculator-dev.[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/add/1/2)
+* [Subtract 3 from 5  ](http://simplecalculator-dev.[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/sub/5/3)
+* [Multiply 3 and 5 ](http://simplecalculator-dev.[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/mul/3/5)
+* [Divide 15 by 3 ](http://simplecalculator-dev.[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/div/3/5)

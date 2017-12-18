@@ -2,7 +2,7 @@
 
 **1. Change to application directory**
 
-``cd /root/helloboot-discovery``{{execute}}``
+``cd $HOME/helloboot-discovery``{{execute interrupt}}``
 
 **2. Add fabric8 maven plugin**
 
@@ -10,11 +10,11 @@
 
 After the command one that differs slightly is the `pom.xml`. Please open the and examine it a bit closer to see fabric8 maven plugin added to it.
 
-``pom.xml``{{open}}
+``helloboot-discovery/pom.xml``{{open}}
 
 **3. Add OpenShift view permission to default Service Account**
 
-As Spring Cloud Kubernetes module uses the Kubernetes API, we need to provide the default service account with **view** permisisons:
+As Spring Cloud Kubernetes module uses the Kubernetes API, we need to provide the default service account with **view** permissions:
 
 ``oc policy add-role-to-user view -z default``{{execute}}
 
@@ -30,5 +30,5 @@ After the maven build as finished, it will typically take less than 20 sec for t
 
 ``oc rollout status dc/helloboot-discovery``{{execute}}
 
-Then either go to the openshift web console and click on the route or click [here](http://helloboot-dev.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/randomadd/)
+Then either go to the openshift web console and click on the route or click [here](http://hellboot-discovery-dev.[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/randomadd/)
 

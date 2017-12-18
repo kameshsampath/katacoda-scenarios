@@ -1,10 +1,10 @@
 # Create Ribbon Configuration 
 
-Click on the link below to create an empty Java class file called **SimpleCalculatorRibbonConfiguration.java** in the directory **/root/helloboot/src/main/java/com/example/hellobootdiscovery** : ``/root/helloboot-discovery/src/main/java/com/example/hellobootdiscovery/SimpleCalculatorRibbonConfiguration.java``{{open}}
+Click on the link below to create an empty Java class file called **SimpleCalculatorRibbonConfiguration.java** in the directory **helloboot-discovery/src/main/java/com/example/hellobootdiscovery** : ``helloboot-discovery/src/main/java/com/example/hellobootdiscovery/SimpleCalculatorRibbonConfiguration.java``{{open}}
 
 Once the created file is opened in the editor, you can then copy the content below into the file (or use the `Copy to editor` button):
 
-<pre class="file" data-filename="/root/helloboot-discovery/src/main/java/com/example/hellobootdiscovery/SimpleCalculatorRibbonConfiguration.java" data-target="replace">
+<pre class="file" data-filename="helloboot-discovery/src/main/java/com/example/hellobootdiscovery/SimpleCalculatorRibbonConfiguration.java" data-target="replace">
 package com.example.hellobootdiscovery;
 
 import com.netflix.client.config.IClientConfig;
