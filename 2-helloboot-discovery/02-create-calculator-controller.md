@@ -2,11 +2,11 @@
 
 **1. Add Calculator Service**
 
-First, we need to create the Java class file, click on the link below to create an empty file called **Calculator.java** in the directory **/root/simplecalculator/src/main/java/com/example/simplecalculator** : ``/root/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java``{{open}}
+First, we need to create the Java class file, click on the link below to create an empty file called **Calculator.java** in the directory **~/simplecalculator/src/main/java/com/example/simplecalculator** : ``~/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java``{{open}}
 
 Once the created file is opened in the editor, you can then copy the content below into the file (or use the `Copy to editor` button):
 
-<pre class="file" data-filename="/root/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java" data-target="replace">
+<pre class="file" data-filename="~/simplecalculator/src/main/java/com/example/simplecalculator/Calculator.java" data-target="replace">
 package com.example.simplecalculator;
 
 import lombok.extern.slf4j.Slf4j;
@@ -112,7 +112,3 @@ You will see a HTTP 404 because as we dont have any resource on root `/` , try d
 * '/sub/2/1'
 * '/mul/3/5'
 * 'div/4/2'
-
-**3. Stop the Running Application**
-
-`CRTL + C` to stop the running application
